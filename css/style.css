@@ -1,0 +1,110 @@
+ #divPesquisa{
+    width: 50%;
+    margin: 0 auto;
+    font: "Roboto"
+}
+
+.header img{
+  margin: 0 auto;
+}
+
+
+.container{
+  margin-bottom: 50px;
+}
+
+.btn-submit{
+      height: 37px;
+    margin-top: 32px;
+}
+#formPesquisa{
+  padding: 20px;
+  margin-top: 14%;
+}
+
+#conteudo{
+display: none;
+}
+
+.item{
+  height: auto;
+  border: 6px solid white;
+  border-radius: 11px;
+  padding: 18px;
+  background: #e4e4e494;
+  margin-top: 5px;
+  display: flow-root;
+}
+
+.item label{
+  height: 60px;
+  text-align: center;
+  font-size: 13px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.descricao{
+  text-align: center;
+  font-size: 13px;
+  align-items: center;
+  padding-top: 10px;
+  height: 130px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sem_resultado{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.detalhes:hover,
+#buscar:hover,
+.anterior:hover,
+.proximo:hover{
+cursor: pointer;
+}
+
+.div_acao{
+  line-height: 35px;
+  text-align: right;
+}
+
+.hide{
+  display: none;
+}
+
+.div_acao{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .descricao{
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
+    padding-top: 10px;
+    min-height: 130px;
+    height: auto;
+  }
+
+  .item label{
+    height: auto;
+    min-height: 75px;
+    font-size: 2rem;
+  }
+
+  .col-md-3 {
+      -ms-flex: 0 0 100%!important;
+      flex: 0 0 100%!important;
+      max-width: 100%!important;
+  }
+}

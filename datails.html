@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Detalhes </title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/open-iconic.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+
+  </head>
+  <body>
+    <section class="container-fluid">
+
+      <div class="container col-7 mt-5"> 
+        
+        <a href="index.html" class="mb-4 btn btn-primary"> Voltar </a>
+
+        <div class="card font-weight-normal">
+          <div class="card-title">
+            <h5 class="card-title text-left" id="title"></h5>
+          </div>
+          
+          <div id="video"> </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="col-7 h6 float-right"> 
+                <div class="col-6 float-left">
+                  <span class="oi oi-thumb-up"></span>           
+                  <span id="like"></span>
+                </div>
+
+                <div class="col-6 float-right">
+                  <span class="oi oi-thumb-down"></span>
+                  <span id="deslike"></span> 
+                </div>    
+              </div>
+            </li>
+            <li class="list-group-item">
+              <h6 id="description" class="text-left"></h6>
+            </li>
+            <li class="list-group-item h6">
+              <span class="oi oi-eye"></span>
+              <span id="viewCount"></span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </body>
+</html>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src= js/details.js></script>

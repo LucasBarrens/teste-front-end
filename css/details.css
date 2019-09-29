@@ -1,0 +1,17 @@
+.container{
+    margin:0 auto;
+    margin-bottom: 100px;
+ }
+
+.card,
+.list-group-item{
+	border: none!important;
+}
+
+body{
+    font-family: sans-serif!important;
+}
+
+#description{
+    text-indent: 1rem}
+}

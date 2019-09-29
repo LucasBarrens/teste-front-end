@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Teste Aplicação Youtube </title>
+    <meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+
+    <div class="container"> 
+      <div class="text-center mt-5 header"> 
+        <img class="mb-4" src="img/Logo_icasei2.jpg" alt="" width="" height="60">
+      </div>
+
+      <div class="form-label-group" id="divPesquisar">
+        <form id="formPesquisa">
+          <div class="form-group row">
+            <div class="col-10">
+              <label for="exampleInputEmail1"> Buscar: </label>
+              <input type="text" class="form-control" id="txtpesquisa" placeholder="Digite aqui sua busca...">
+
+              <div class="alert alert-danger alert-dismissible hide" role="alert">
+                <strong>Alerta</strong> Digite um valor...
+                <button type="button" class="close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+            </div>
+
+            <span id="buscar" class="col-2 btn btn-primary btn-submit">Buscar</span>
+          </div>
+        </form>
+      </div>
+
+      <div class="div_acao">
+        <span class="btn btn-outline-primary btn-sm anterior"> Anterior </span>
+        <span class="btn btn-outline-primary btn-sm proximo"> Próximo </span>
+      </div>
+
+      <div id="conteudo"> </div>
+
+      <div class="div_acao">
+        <span class="btn btn-outline-primary btn-sm anterior"> Anterior </span>
+        <span class="btn btn-outline-primary btn-sm proximo"> Próximo </span>
+      </div>
+
+    </div>
+    
+  </body>
+</html>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src= js/index.js></script>
